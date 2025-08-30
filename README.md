@@ -5,7 +5,7 @@
 ### Overview
 This system analyzes VoIP network traffic to trace calls, extract metadata, and identify suspicious activities for law enforcement purposes. It works with both encrypted and unencrypted VoIP traffic by analyzing signaling protocols (SIP) and media streams (RTP).
 
-### ⚡ 10-Minute Setup (For Hackathon Submission)
+### ⚡ Setup 
 
 #### 1. Install Dependencies (2 minutes)
 ```bash
