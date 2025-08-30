@@ -1,6 +1,6 @@
 # VoIP Call Tracing System for Law Enforcement
 
-## 🚀 Quick Start Guide for Hackathon
+## 🚀 Quick Start Guide 
 
 ### Overview
 This system analyzes VoIP network traffic to trace calls, extract metadata, and identify suspicious activities for law enforcement purposes. It works with both encrypted and unencrypted VoIP traffic by analyzing signaling protocols (SIP) and media streams (RTP).
