@@ -109,48 +109,6 @@ python main.py --mode dashboard --port 8050
 - **Memory**: 4GB+ recommended
 - **Network**: Access to network interface for live capture
 
-### Installation Steps
-
-1. **Clone/Download Files**
-   ```bash
-   # All files should be in the same directory:
-   - main.py
-   - voip_analyzer.py
-   - dashboard.py
-   - anomaly_detector.py
-   - voip_simulator.py
-   - requirements.txt
-   ```
-
-2. **Install Python Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Platform-Specific Setup**
-
-   **Linux:**
-   ```bash
-   # Install libpcap development files
-   sudo apt-get install libpcap-dev  # Ubuntu/Debian
-   # or
-   sudo yum install libpcap-devel    # CentOS/RHEL
-   ```
-
-   **Windows:**
-   ```bash
-   # Install Npcap (WinPcap replacement)
-   # Download from: https://nmap.org/npcap/
-   # Run as Administrator
-   ```
-
-   **macOS:**
-   ```bash
-   # Install via Homebrew
-   brew install libpcap
-   ```
-
----
 
 ## 🎮 Usage Examples
 
@@ -223,27 +181,6 @@ Generated reports include:
 
 ---
 
-## 🔒 Privacy and Legal Compliance
-
-### Data Protection
-- System focuses on **metadata only** (no voice content)
-- Implements **privacy-by-design** principles
-- Supports **data retention policies**
-- Provides **audit trails** for all activities
-
-### Legal Considerations
-- **Authorization Required**: Only for authorized law enforcement use
-- **Jurisdiction Compliance**: Follow local surveillance laws
-- **Data Handling**: Secure storage and transmission
-- **Documentation**: Maintain proper investigation records
-
-### Compliance Features
-- GDPR-compliant metadata handling
-- HIPAA considerations for healthcare VoIP
-- SOX compliance for financial communications
-- Customizable privacy settings
-
----
 
 ## 🚨 Troubleshooting
 
